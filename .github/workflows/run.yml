@@ -23,7 +23,7 @@ jobs:
         python-version: 3.7
     - name: 签到
       run: |
-        pip install -r requirements.txt
+        pip3 install -r requirements.txt
         
         user='${{ secrets.USER }}'
         pwd='${{ secrets.PWD }}'
