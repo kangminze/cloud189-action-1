@@ -1,3 +1,5 @@
+setuptools-scm
+seqeval
 rsa
 requests
 notify
