@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 from email.header import Header
 
 # 在下面两行的引号内贴上账号（仅支持手机号）和密码
-username = "18001068152"       
+username = "18001068152"
 password = "Kxz10323@"
 
 assert username and password, "请在第23、24行填入有效账号和密码"
