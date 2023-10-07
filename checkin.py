@@ -193,10 +193,10 @@ def main():
     content = f"""
     {res1}
     {res2}
-    {res3}
+    {res3}  
     {res4}
     """
-    notify.send(title, content)
+    # notify.send(title, content)
 
 def lambda_handler(event, context):  # aws default
     main()
